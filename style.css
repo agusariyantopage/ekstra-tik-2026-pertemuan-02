@@ -50,3 +50,46 @@ nav a:hover{
     color: chocolate;
 }
 
+/* Pengaturan Main */
+section {
+    max-width: 1000px;
+    margin: auto;
+    padding: 60px 20px;
+}
+
+section h2{
+    color:azure;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+section p{
+    margin-bottom: 15px;
+}
+
+.hero {
+    max-width: 100%;
+    text-align: center;
+    background-color: darkblue;
+    padding: 80px 20px;
+}
+
+button {
+    background-color: rgb(17, 10, 2);
+    color: #fff;
+    border: none;
+    padding: 13px 25px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s;    
+}
+
+button:hover{
+    background-color: blueviolet;
+    transform:scale(1.05);
+}
+
+
