@@ -92,4 +92,45 @@ button:hover{
     transform:scale(1.05);
 }
 
+.program-container{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:20px;
+}
+
+.card{
+    background-color:blueviolet;
+    padding : 25px;
+    border-radius: 30px;
+    text-align: center;    
+    transition: 0.5s;
+}
+
+.card:hover{
+    transform: translateY(-15px) ;
+}
+
+.card h3{
+    margin-bottom: 10px;
+    color :burlywood;
+}
+
+.prestasi-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap : 20px;
+}
+
+.prestasi{
+    background-color: brown;
+    padding: 25px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.prestasi h3{
+    margin-bottom: 10px;
+    color: violet;
+}
+
 
